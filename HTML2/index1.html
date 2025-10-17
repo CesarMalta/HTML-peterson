@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- Define que o documento segue o padrão HTML5 -->
+
+<html lang="pt-br">
+<!-- Define o idioma da página como português do Brasil -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Define o padrão de caracteres (acentos e símbolos) como UTF-8 -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Faz com que a página se ajuste ao tamanho da tela (responsiva) -->
+
+    <title>HTML 02 - Listas, Tabelas e Formulários</title>
+    <!-- Título que aparece na aba do navegador -->
+</head>
+
+<body>
+    <!-- Início do corpo da página (conteúdo visível) -->
+
+    <h1>Listas, Tabelas e Formulários</h1>
+    <!-- Título principal da página -->
+
+    <p>Nesta página serão apresentadas listas, tabelas e formulários.</p>
+    <!-- Parágrafo introdutório explicando o conteúdo da página -->
+
+    <h2>Lista não ordenada</h2>
+    <!-- Subtítulo da seção de lista não ordenada -->
+
+    <ul>
+        <!-- Lista não ordenada (com marcadores) -->
+        <li>Maçã</li>
+        <li>Pêra</li>
+        <li>Uva</li>
+    </ul>
+
+    <h2>Lista ordenada</h2>
+    <!-- Subtítulo da seção de lista ordenada -->
+
+    <ol>
+        <!-- Lista ordenada (numerada) -->
+        <li>Cabeça</li>
+        <li>Ombro</li>
+        <li>Joelho</li>
+        <li>Pé</li>
+    </ol>
+
+    <h2>Lista de definição</h2>
+    <!-- Subtítulo da seção de lista de definição -->
+
+    <dl>
+        <!-- Lista de termos e definições -->
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação</dd>
+
+        <dt>CSS</dt>
+        <dd>Folha de estilo</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação - interação</dd>
+    </dl>
+
+    <hr>
+    <!-- Linha horizontal separando as seções -->
+
+    <h2>Tabela</h2>
+    <!-- Subtítulo da seção de tabela -->
+
+    <table border="1">
+        <!-- Criação da tabela com borda -->
+
+        <tr>
+            <!-- Linha de cabeçalho -->
+            <th>Tecnologia</th>
+            <th>Descrição</th>
+        </tr>
+
+        <tr>
+            <!-- Primeira linha de dados -->
+            <td>HTML</td>
+            <td>Linguagem de marcação</td>
+        </tr>
+
+        <tr>
+            <!-- Segunda linha de dados -->
+            <td>JavaScript</td>
+            <td>Linguagem de programação - interação</td>
+        </tr>
+    </table>
+
+    <hr>
+    <!-- Linha horizontal separando seções -->
+
+    <h2>Formulários</h2>
+    <!-- Subtítulo da seção de formulários -->
+
+    <form action="#" method="post">
+        <!-- Início do formulário.
+             action="#" significa que ele não enviará os dados para outro arquivo.
+             method="post" indica o tipo de envio dos dados. -->
+
+        <label for="nome">Nome:</label><br>
+        <!-- Rótulo do campo de nome -->
+        <input type="text" id="nome" name="nome"><br><br>
+        <!-- Campo de texto para o nome do usuário -->
+
+        <label for="email">E-mail:</label><br>
+        <!-- Rótulo do campo de e-mail -->
+        <input type="email" id="email" name="email"><br><br>
+        <!-- Campo para digitar o e-mail -->
+
+        <label for="senha">Senha:</label><br>
+        <!-- Rótulo do campo de senha -->
+        <input type="password" id="senha" name="senha"><br><br>
+        <!-- Campo de senha (oculta os caracteres digitados) -->
+
+        <input type="submit" value="Enviar">
+        <!-- Botão de envio do formulário -->
+    </form>
+
+</body>
+<!-- Fim do corpo da página -->
+
+</html>
+<!-- Fim do documento HTML -->
