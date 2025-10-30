@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS em listas e tabelas</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .lista1 {
+  list-style-type: square;   /* marcador quadrado */
+}
+
+.lista2 {
+  list-style-type: upper-roman; /* algarismos romanos */
+}
+
+.lista3 {
+  list-style-image: url("icone.png"); /* marcador com imagem */
+}
+
+.tabela{
+    border-collapse: collapse; /* une bordas adjacentes */
+    width: 100%;
+}
+.tabela th, .tabela td {
+    border: 1px solid #999999;
+    padding: 8px;
+    text-align: left;
+}
+.tabela tr:nth-child(even) {
+    background-color: #cacaca; /* linhas alternadas */
+}
+    </style>
+</head>
+<body>
+     <h2>Exemplo de Listas</h2>
+
+    <ul class="lista1">
+        <li>Item com marcador quadrado</li>
+        <li>Outro item</li>
+    </ul>
+
+    <ol class="lista2">
+        <li>Primeiro item em algarismo romano</li>
+        <li>Segundo item</li>
+    </ol>
+
+    <ul class="lista1">
+        <li>Item com marcador de imagem</li>
+        <li>Mais um item</li>
+    </ul>
+
+
+    <h2>Exemplo de Tabela</h2>
+
+    <table class="tabela">
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>25</td>
+            <td>Salvador</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>30</td>
+            <td>Recife</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>28</td>
+            <td>Fortaleza</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
